@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+}
+
+:root {
+    --green: green;
+}
+
+sup {
+    color: var(--green);
+    font-weight: bold;
+}
+
+/* CAROUSEL STARTED  */
+
+#crusal-img2 img {
+    height: 197px;
+}
+
+.nav-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.nav-carousel-1 {
+    width: 70%;
+    height: auto;
+}
+
+.nav-carousel-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    /* border: 1px solid #000; */
+}
+
+.nav-carousel-img {
+    width:  100%;
+    height: auto;
+}
+
+.nav-carousel-2 img {
+    width: 300%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-carousel-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .nav-carousel-2 {
+        display: none;
+    }
+}
+
+
+
+/* CAROUSEL ENDED   */
+
+#chat-btn {
+    position: fixed;
+    width: 107px;
+    height: 45px;
+    background-color: #404553;
+    z-index: 1;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+}
+
+#chat-btn2 {
+    position: relative;
+    font-size: 25px;
+    left: 15px;
+    color: #fff;
+}
+
+.index {
+    color: #fff;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+#chat-btn:hover {
+    cursor: poiner;
+}
+
+.logo>img {
+    width: 86px;
+    height: 24px;
+}
+
+#nav-box {
+    background-color: yellow;
+    width: 100%;
+    height: 80px;
+    /* position: fixed;
+    top: 0px; */
+}
+
+#nav-two {
+    /* margin-top: 70px; */
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+#nav-three {
+    gap: 30px;
+    justify-content: space-between;
+}
+
+#nav-three p {
+    color: #000;
+    margin-top: 15px;
+    /* align-content: center; */
+}
+
+#nav-three p:hover {
+    color: red;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+#srh-bar {
+    height: 36%;
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#srh-bar:hover {
+    box-shadow: 1px 1px 5px gray;
+    transition-duration: 0.2s;
+}
+
+#nav-bar {
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed;
+    top: 0px; */
+}
+
+.light:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+#box-two {
+    width: 100%;
+    height: 177px;
+    background-color: #fff0be;
+    flex-wrap: wrap;
+}
+
+#img2 {
+    width: 100%;
+}
+
+#img-3 {
+    width: 900px;
+    height: 209px;
+}
+
+.img-width {
+    width: 216%;
+    height: 210px;
+}
+
+#circle-img {
+    justify-content: space-evenly;
+}
+
+#circle-img>div img {
+    margin-top: 15px;
+    transition-duration: 0.2s;
+}
+
+#circle-img>div img:hover {
+    width: 105px;
+    height: 149px;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 50px;
+}
+
+#section-three {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 590px;
+}
+
+.box-size2 {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 20px;
+    gap: 30px;
+}
+
+.div-box {
+    height: 180px;
+    width: 202px;
+    background-color: #404553;
+}
+
+#margin-img1 img:hover {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+}
+
+#margin-img2 img:hover {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+}
+
+#margin-img3 img:hover {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+}
+
+div h2:hover {
+    text-shadow: 2px 2px 5px gray;
+}
+
+#color-box-gray {
+    width: 100%;
+    height: 450px;
+    background-color: #f1f4fd;
+}
+
+.box-gray {
+    width: 230px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    /* margin: 5px; */
+    padding: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.box-gray img {
+    margin: 5px;
+    width: 190px;
+    height: 268px;
+
+}
+
+.box-gray img:hover {
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+}
+
+#section-five {
+    height: 350px;
+    width: 100%;
+    background-color: #ffeee5;
+}
+
+.pink-box-two {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.pink-box-two img {
+    width: 170px;
+    height: 268px;
+}
+.pink-box-two img:hover {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 13px;
+}
+
+.section-six-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-size {
+    width: 95px;
+    height: 36px;
+    background-color: #fff;
+}
+
+.section-six-box  button {
+    width: 95px;
+    height: 36px;
+    background-color: #fff;
+}
+
+.section-box-seven {
+    width: 100%;
+    height: 350px;
+    background-color: #e1effa;
+}
+
+.box-seven {
+    width: 320px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box-seven:hover {
+    box-shadow: 2px 2px 10px gray;
+}
+
+.section-ten-box {
+    width: 100%;
+    height: 340px;
+    background-color: #fef1e2;
+}
+
+#ramdan-img img {
+    width: 180px;
+    height: 263px;
+}
+
+.woman img {
+    width: 170px;
+    height: 268px;
+}
+
+.woman img:hover{
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+}
+
+.text-margin {
+    margin: 10px;
+}
+
+.text-gray {
+    color: #838282;
+}
+
+.gray-box {
+    width: 100%;
+    height: 100px;
+    background-color: #f7f7fa;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dadada;
+}
+
+.footer-text a {
+    line-height: 30px;
+    font-size: 13px;
+    color: #000;
+}
+
+.yellow-box {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50px;
+    
+}
+
+.yellow-box i {
+    position: relative;
+    top: 13px;
+    left: 14px;
+    font-size: 25px;
+}
+
+.yellow-box i:hover {
+    color: #838282;
+}
+
+.shop-on h6 {
+    margin-left: 120px;
+}
+
+.shop-two h6 {
+    margin-left: 50px;
+}
+
+.footer-gray{
+    background-color: #f1f4fd;
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid #dcdcdc ;
+}
+
+.footer-text-two p {
+    font-size: 15px;
+    color: #a0a0a0;
+}
